@@ -17,3 +17,11 @@ stop:
 
 log:
 	docker-compose logs -f
+
+clear:
+	rm -rf logs/*
+
+update:
+	git add --all
+	git commit -m 'update'
+	git push origin

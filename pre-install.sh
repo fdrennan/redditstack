@@ -29,7 +29,9 @@ sudo apt-get install -y \
     libpq-dev \
     docker-ce \
     docker-ce-cli \
-    containerd.io
+    containerd.io \
+    net-tools \
+    gdebi
 
 
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

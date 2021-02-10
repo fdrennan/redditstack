@@ -2,7 +2,8 @@
 ## Setup
 
 ```
-echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> .env
+curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> redditstack/.env
 ```
 
 .Renviron

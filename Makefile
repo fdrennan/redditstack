@@ -1,10 +1,10 @@
-run:
+up:
 	docker-compose down
 	docker-compose pull
 	docker-compose build
 	docker-compose up -d
 
-stop:
+down:
 	docker-compose down
 
 log:
@@ -20,7 +20,7 @@ clear:
 	rm -rf logs dags plugins
 	mkdir -m 777 logs dags plugins
 
-update: clear
+mainpush: clear
 	git add --all
 	git commit -m 'update'
 	git push origin main

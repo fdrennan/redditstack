@@ -22,5 +22,6 @@ clear:
 	rm -rf logs/*
 
 update:
+	rm -rf logs/*
 	git add --all
 	git commit -m 'update'

@@ -264,3 +264,619 @@
 [2021-02-10 04:53:45,399] {logging_mixin.py:103} INFO - [2021-02-10 04:53:45,399] {dag.py:1813} INFO - Sync 1 DAGs
 [2021-02-10 04:53:45,450] {logging_mixin.py:103} INFO - [2021-02-10 04:53:45,449] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
 [2021-02-10 04:53:45,588] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.230 seconds
+[2021-02-10 04:53:51,452] {scheduler_job.py:181} INFO - Started process (PID=997) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:51,456] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:53:51,458] {logging_mixin.py:103} INFO - [2021-02-10 04:53:51,458] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:51,473] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:51,475] {logging_mixin.py:103} INFO - [2021-02-10 04:53:51,475] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:53:51,526] {logging_mixin.py:103} INFO - [2021-02-10 04:53:51,526] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:53:51,554] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.106 seconds
+[2021-02-10 04:53:54,443] {scheduler_job.py:181} INFO - Started process (PID=1022) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:54,455] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:53:54,459] {logging_mixin.py:103} INFO - [2021-02-10 04:53:54,459] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:54,522] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:54,528] {logging_mixin.py:103} INFO - [2021-02-10 04:53:54,528] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:53:54,609] {logging_mixin.py:103} INFO - [2021-02-10 04:53:54,609] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:53:54,643] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.218 seconds
+[2021-02-10 04:53:57,568] {scheduler_job.py:181} INFO - Started process (PID=1048) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:57,573] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:53:57,576] {logging_mixin.py:103} INFO - [2021-02-10 04:53:57,576] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:57,637] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:53:57,651] {logging_mixin.py:103} INFO - [2021-02-10 04:53:57,650] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:53:57,779] {logging_mixin.py:103} INFO - [2021-02-10 04:53:57,779] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:53:57,823] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.263 seconds
+[2021-02-10 04:54:00,483] {scheduler_job.py:181} INFO - Started process (PID=1073) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:00,489] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:00,493] {logging_mixin.py:103} INFO - [2021-02-10 04:54:00,492] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:00,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:00,532] {logging_mixin.py:103} INFO - [2021-02-10 04:54:00,532] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:00,595] {logging_mixin.py:103} INFO - [2021-02-10 04:54:00,595] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:00,634] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.158 seconds
+[2021-02-10 04:54:03,682] {scheduler_job.py:181} INFO - Started process (PID=1098) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:03,690] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:03,693] {logging_mixin.py:103} INFO - [2021-02-10 04:54:03,693] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:03,712] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:03,716] {logging_mixin.py:103} INFO - [2021-02-10 04:54:03,716] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:03,789] {logging_mixin.py:103} INFO - [2021-02-10 04:54:03,789] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:03,830] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.156 seconds
+[2021-02-10 04:54:06,434] {scheduler_job.py:181} INFO - Started process (PID=1123) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:06,440] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:06,443] {logging_mixin.py:103} INFO - [2021-02-10 04:54:06,443] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:06,462] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:06,466] {logging_mixin.py:103} INFO - [2021-02-10 04:54:06,465] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:06,523] {logging_mixin.py:103} INFO - [2021-02-10 04:54:06,523] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:06,559] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.131 seconds
+[2021-02-10 04:54:09,281] {scheduler_job.py:181} INFO - Started process (PID=1148) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:09,284] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:09,287] {logging_mixin.py:103} INFO - [2021-02-10 04:54:09,286] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:09,307] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:09,310] {logging_mixin.py:103} INFO - [2021-02-10 04:54:09,310] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:09,367] {logging_mixin.py:103} INFO - [2021-02-10 04:54:09,367] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:09,403] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.129 seconds
+[2021-02-10 04:54:12,095] {scheduler_job.py:181} INFO - Started process (PID=1173) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:12,100] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:12,102] {logging_mixin.py:103} INFO - [2021-02-10 04:54:12,102] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:12,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:12,151] {logging_mixin.py:103} INFO - [2021-02-10 04:54:12,151] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:12,270] {logging_mixin.py:103} INFO - [2021-02-10 04:54:12,269] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:12,308] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.219 seconds
+[2021-02-10 04:54:14,961] {scheduler_job.py:181} INFO - Started process (PID=1198) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:14,965] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:14,968] {logging_mixin.py:103} INFO - [2021-02-10 04:54:14,968] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:15,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:15,022] {logging_mixin.py:103} INFO - [2021-02-10 04:54:15,022] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:15,151] {logging_mixin.py:103} INFO - [2021-02-10 04:54:15,151] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:15,183] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.228 seconds
+[2021-02-10 04:54:18,094] {scheduler_job.py:181} INFO - Started process (PID=1223) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:18,099] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:18,102] {logging_mixin.py:103} INFO - [2021-02-10 04:54:18,102] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:18,129] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:18,132] {logging_mixin.py:103} INFO - [2021-02-10 04:54:18,132] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:18,245] {logging_mixin.py:103} INFO - [2021-02-10 04:54:18,245] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:18,278] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.190 seconds
+[2021-02-10 04:54:21,314] {scheduler_job.py:181} INFO - Started process (PID=1249) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:21,319] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:21,321] {logging_mixin.py:103} INFO - [2021-02-10 04:54:21,321] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:21,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:21,343] {logging_mixin.py:103} INFO - [2021-02-10 04:54:21,343] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:21,386] {logging_mixin.py:103} INFO - [2021-02-10 04:54:21,386] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:21,410] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.106 seconds
+[2021-02-10 04:54:24,205] {scheduler_job.py:181} INFO - Started process (PID=1274) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:24,209] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:24,216] {logging_mixin.py:103} INFO - [2021-02-10 04:54:24,215] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:24,300] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:24,304] {logging_mixin.py:103} INFO - [2021-02-10 04:54:24,304] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:24,373] {logging_mixin.py:103} INFO - [2021-02-10 04:54:24,373] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:24,404] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.212 seconds
+[2021-02-10 04:54:27,820] {scheduler_job.py:181} INFO - Started process (PID=1300) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:27,823] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:27,825] {logging_mixin.py:103} INFO - [2021-02-10 04:54:27,825] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:27,843] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:27,846] {logging_mixin.py:103} INFO - [2021-02-10 04:54:27,846] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:27,900] {logging_mixin.py:103} INFO - [2021-02-10 04:54:27,900] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:27,932] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.117 seconds
+[2021-02-10 04:54:30,538] {scheduler_job.py:181} INFO - Started process (PID=1325) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:30,541] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:30,543] {logging_mixin.py:103} INFO - [2021-02-10 04:54:30,543] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:30,557] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:30,561] {logging_mixin.py:103} INFO - [2021-02-10 04:54:30,561] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:30,626] {logging_mixin.py:103} INFO - [2021-02-10 04:54:30,625] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:30,657] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.124 seconds
+[2021-02-10 04:54:34,069] {scheduler_job.py:181} INFO - Started process (PID=1350) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:34,083] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:34,089] {logging_mixin.py:103} INFO - [2021-02-10 04:54:34,089] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:34,118] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:34,121] {logging_mixin.py:103} INFO - [2021-02-10 04:54:34,121] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:34,275] {logging_mixin.py:103} INFO - [2021-02-10 04:54:34,275] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:34,312] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.279 seconds
+[2021-02-10 04:54:37,289] {scheduler_job.py:181} INFO - Started process (PID=1375) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:37,293] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:37,296] {logging_mixin.py:103} INFO - [2021-02-10 04:54:37,296] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:37,318] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:37,321] {logging_mixin.py:103} INFO - [2021-02-10 04:54:37,321] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:37,386] {logging_mixin.py:103} INFO - [2021-02-10 04:54:37,386] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:37,420] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.138 seconds
+[2021-02-10 04:54:40,311] {scheduler_job.py:181} INFO - Started process (PID=1400) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:40,314] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:40,316] {logging_mixin.py:103} INFO - [2021-02-10 04:54:40,316] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:40,336] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:40,339] {logging_mixin.py:103} INFO - [2021-02-10 04:54:40,339] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:40,390] {logging_mixin.py:103} INFO - [2021-02-10 04:54:40,390] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:40,434] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.128 seconds
+[2021-02-10 04:54:43,586] {scheduler_job.py:181} INFO - Started process (PID=1426) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:43,604] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:43,634] {logging_mixin.py:103} INFO - [2021-02-10 04:54:43,630] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:43,667] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:43,671] {logging_mixin.py:103} INFO - [2021-02-10 04:54:43,671] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:43,736] {logging_mixin.py:103} INFO - [2021-02-10 04:54:43,734] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:43,827] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.253 seconds
+[2021-02-10 04:54:47,595] {scheduler_job.py:181} INFO - Started process (PID=1451) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:47,599] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:47,602] {logging_mixin.py:103} INFO - [2021-02-10 04:54:47,602] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:47,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:47,630] {logging_mixin.py:103} INFO - [2021-02-10 04:54:47,629] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:47,744] {logging_mixin.py:103} INFO - [2021-02-10 04:54:47,744] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:47,781] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.193 seconds
+[2021-02-10 04:54:51,274] {scheduler_job.py:181} INFO - Started process (PID=1477) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:51,278] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:51,280] {logging_mixin.py:103} INFO - [2021-02-10 04:54:51,280] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:51,301] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:51,304] {logging_mixin.py:103} INFO - [2021-02-10 04:54:51,304] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:51,361] {logging_mixin.py:103} INFO - [2021-02-10 04:54:51,360] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:51,391] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.123 seconds
+[2021-02-10 04:54:54,119] {scheduler_job.py:181} INFO - Started process (PID=1502) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:54,122] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:54,125] {logging_mixin.py:103} INFO - [2021-02-10 04:54:54,125] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:54,142] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:54,147] {logging_mixin.py:103} INFO - [2021-02-10 04:54:54,147] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:54,202] {logging_mixin.py:103} INFO - [2021-02-10 04:54:54,202] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:54,242] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.130 seconds
+[2021-02-10 04:54:57,151] {scheduler_job.py:181} INFO - Started process (PID=1527) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:57,154] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:57,156] {logging_mixin.py:103} INFO - [2021-02-10 04:54:57,155] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:57,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:57,173] {logging_mixin.py:103} INFO - [2021-02-10 04:54:57,173] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:57,212] {logging_mixin.py:103} INFO - [2021-02-10 04:54:57,212] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:57,238] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.095 seconds
+[2021-02-10 04:54:59,353] {scheduler_job.py:181} INFO - Started process (PID=1552) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:59,356] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:54:59,359] {logging_mixin.py:103} INFO - [2021-02-10 04:54:59,359] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:59,379] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:54:59,381] {logging_mixin.py:103} INFO - [2021-02-10 04:54:59,381] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:54:59,427] {logging_mixin.py:103} INFO - [2021-02-10 04:54:59,427] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:54:59,455] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.108 seconds
+[2021-02-10 04:55:01,837] {scheduler_job.py:181} INFO - Started process (PID=1577) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:01,839] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:01,841] {logging_mixin.py:103} INFO - [2021-02-10 04:55:01,841] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:01,859] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:01,862] {logging_mixin.py:103} INFO - [2021-02-10 04:55:01,862] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:01,909] {logging_mixin.py:103} INFO - [2021-02-10 04:55:01,908] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:01,938] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.106 seconds
+[2021-02-10 04:55:04,391] {scheduler_job.py:181} INFO - Started process (PID=1602) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:04,394] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:04,397] {logging_mixin.py:103} INFO - [2021-02-10 04:55:04,397] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:04,418] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:04,421] {logging_mixin.py:103} INFO - [2021-02-10 04:55:04,421] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:04,528] {logging_mixin.py:103} INFO - [2021-02-10 04:55:04,527] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:04,581] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.199 seconds
+[2021-02-10 04:55:07,615] {scheduler_job.py:181} INFO - Started process (PID=1627) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:07,619] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:07,621] {logging_mixin.py:103} INFO - [2021-02-10 04:55:07,621] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:07,642] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:07,645] {logging_mixin.py:103} INFO - [2021-02-10 04:55:07,645] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:07,720] {logging_mixin.py:103} INFO - [2021-02-10 04:55:07,720] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:07,788] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.186 seconds
+[2021-02-10 04:55:10,359] {scheduler_job.py:181} INFO - Started process (PID=1652) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:10,362] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:10,367] {logging_mixin.py:103} INFO - [2021-02-10 04:55:10,367] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:10,390] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:10,395] {logging_mixin.py:103} INFO - [2021-02-10 04:55:10,395] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:10,456] {logging_mixin.py:103} INFO - [2021-02-10 04:55:10,456] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:10,491] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.138 seconds
+[2021-02-10 04:55:13,084] {scheduler_job.py:181} INFO - Started process (PID=1677) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:13,087] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:13,090] {logging_mixin.py:103} INFO - [2021-02-10 04:55:13,089] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:13,110] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:13,112] {logging_mixin.py:103} INFO - [2021-02-10 04:55:13,112] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:13,194] {logging_mixin.py:103} INFO - [2021-02-10 04:55:13,193] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:13,237] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.160 seconds
+[2021-02-10 04:55:15,553] {scheduler_job.py:181} INFO - Started process (PID=1702) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:15,559] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:15,565] {logging_mixin.py:103} INFO - [2021-02-10 04:55:15,565] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:15,607] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:15,611] {logging_mixin.py:103} INFO - [2021-02-10 04:55:15,610] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:15,684] {logging_mixin.py:103} INFO - [2021-02-10 04:55:15,684] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:15,719] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.173 seconds
+[2021-02-10 04:55:18,461] {scheduler_job.py:181} INFO - Started process (PID=1727) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:18,465] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:18,467] {logging_mixin.py:103} INFO - [2021-02-10 04:55:18,467] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:18,488] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:18,492] {logging_mixin.py:103} INFO - [2021-02-10 04:55:18,491] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:18,545] {logging_mixin.py:103} INFO - [2021-02-10 04:55:18,545] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:18,587] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.132 seconds
+[2021-02-10 04:55:21,262] {scheduler_job.py:181} INFO - Started process (PID=1753) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:21,265] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:21,270] {logging_mixin.py:103} INFO - [2021-02-10 04:55:21,270] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:21,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:21,307] {logging_mixin.py:103} INFO - [2021-02-10 04:55:21,307] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:21,377] {logging_mixin.py:103} INFO - [2021-02-10 04:55:21,376] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:21,464] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.210 seconds
+[2021-02-10 04:55:24,048] {scheduler_job.py:181} INFO - Started process (PID=1778) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:24,051] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:24,053] {logging_mixin.py:103} INFO - [2021-02-10 04:55:24,053] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:24,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:24,078] {logging_mixin.py:103} INFO - [2021-02-10 04:55:24,078] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:24,134] {logging_mixin.py:103} INFO - [2021-02-10 04:55:24,134] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:24,161] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.120 seconds
+[2021-02-10 04:55:27,017] {scheduler_job.py:181} INFO - Started process (PID=1804) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:27,020] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:27,023] {logging_mixin.py:103} INFO - [2021-02-10 04:55:27,023] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:27,041] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:27,044] {logging_mixin.py:103} INFO - [2021-02-10 04:55:27,044] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:27,106] {logging_mixin.py:103} INFO - [2021-02-10 04:55:27,105] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:27,144] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.135 seconds
+[2021-02-10 04:55:29,998] {scheduler_job.py:181} INFO - Started process (PID=1829) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:30,002] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:30,005] {logging_mixin.py:103} INFO - [2021-02-10 04:55:30,005] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:30,030] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:30,033] {logging_mixin.py:103} INFO - [2021-02-10 04:55:30,033] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:30,090] {logging_mixin.py:103} INFO - [2021-02-10 04:55:30,090] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:30,126] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.139 seconds
+[2021-02-10 04:55:33,076] {scheduler_job.py:181} INFO - Started process (PID=1854) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:33,084] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:33,092] {logging_mixin.py:103} INFO - [2021-02-10 04:55:33,091] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:33,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:33,129] {logging_mixin.py:103} INFO - [2021-02-10 04:55:33,129] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:33,199] {logging_mixin.py:103} INFO - [2021-02-10 04:55:33,199] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:33,236] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.172 seconds
+[2021-02-10 04:55:35,537] {scheduler_job.py:181} INFO - Started process (PID=1879) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:35,540] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:35,542] {logging_mixin.py:103} INFO - [2021-02-10 04:55:35,542] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:35,564] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:35,567] {logging_mixin.py:103} INFO - [2021-02-10 04:55:35,566] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:35,623] {logging_mixin.py:103} INFO - [2021-02-10 04:55:35,623] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:35,658] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.126 seconds
+[2021-02-10 04:55:39,662] {scheduler_job.py:181} INFO - Started process (PID=1904) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:39,665] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:39,668] {logging_mixin.py:103} INFO - [2021-02-10 04:55:39,667] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:39,688] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:39,691] {logging_mixin.py:103} INFO - [2021-02-10 04:55:39,691] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:39,746] {logging_mixin.py:103} INFO - [2021-02-10 04:55:39,746] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:39,790] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.136 seconds
+[2021-02-10 04:55:42,968] {scheduler_job.py:181} INFO - Started process (PID=1929) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:42,971] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:42,974] {logging_mixin.py:103} INFO - [2021-02-10 04:55:42,974] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:43,007] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:43,010] {logging_mixin.py:103} INFO - [2021-02-10 04:55:43,010] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:43,081] {logging_mixin.py:103} INFO - [2021-02-10 04:55:43,080] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:43,115] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.156 seconds
+[2021-02-10 04:55:46,089] {scheduler_job.py:181} INFO - Started process (PID=1954) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:46,093] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:46,095] {logging_mixin.py:103} INFO - [2021-02-10 04:55:46,095] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:46,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:46,132] {logging_mixin.py:103} INFO - [2021-02-10 04:55:46,132] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:46,203] {logging_mixin.py:103} INFO - [2021-02-10 04:55:46,203] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:46,247] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.165 seconds
+[2021-02-10 04:55:50,571] {scheduler_job.py:181} INFO - Started process (PID=1980) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:50,576] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:50,579] {logging_mixin.py:103} INFO - [2021-02-10 04:55:50,579] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:50,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:50,610] {logging_mixin.py:103} INFO - [2021-02-10 04:55:50,609] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:50,670] {logging_mixin.py:103} INFO - [2021-02-10 04:55:50,670] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:50,716] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.152 seconds
+[2021-02-10 04:55:53,443] {scheduler_job.py:181} INFO - Started process (PID=2006) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:53,448] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:53,450] {logging_mixin.py:103} INFO - [2021-02-10 04:55:53,450] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:53,477] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:53,480] {logging_mixin.py:103} INFO - [2021-02-10 04:55:53,480] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:53,531] {logging_mixin.py:103} INFO - [2021-02-10 04:55:53,531] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:53,562] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.127 seconds
+[2021-02-10 04:55:57,602] {scheduler_job.py:181} INFO - Started process (PID=2032) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:57,605] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:55:57,607] {logging_mixin.py:103} INFO - [2021-02-10 04:55:57,607] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:57,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:55:57,644] {logging_mixin.py:103} INFO - [2021-02-10 04:55:57,643] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:55:57,699] {logging_mixin.py:103} INFO - [2021-02-10 04:55:57,698] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:55:57,736] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.141 seconds
+[2021-02-10 04:56:01,520] {scheduler_job.py:181} INFO - Started process (PID=2057) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:01,523] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:01,525] {logging_mixin.py:103} INFO - [2021-02-10 04:56:01,525] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:01,540] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:01,543] {logging_mixin.py:103} INFO - [2021-02-10 04:56:01,543] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:01,592] {logging_mixin.py:103} INFO - [2021-02-10 04:56:01,592] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:01,626] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.113 seconds
+[2021-02-10 04:56:04,688] {scheduler_job.py:181} INFO - Started process (PID=2082) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:04,691] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:04,693] {logging_mixin.py:103} INFO - [2021-02-10 04:56:04,692] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:04,715] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:04,718] {logging_mixin.py:103} INFO - [2021-02-10 04:56:04,717] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:04,770] {logging_mixin.py:103} INFO - [2021-02-10 04:56:04,770] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:04,804] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.121 seconds
+[2021-02-10 04:56:07,365] {scheduler_job.py:181} INFO - Started process (PID=2107) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:07,371] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:07,387] {logging_mixin.py:103} INFO - [2021-02-10 04:56:07,386] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:07,478] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:07,493] {logging_mixin.py:103} INFO - [2021-02-10 04:56:07,492] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:07,601] {logging_mixin.py:103} INFO - [2021-02-10 04:56:07,601] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:07,633] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.284 seconds
+[2021-02-10 04:56:12,637] {scheduler_job.py:181} INFO - Started process (PID=2133) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:12,640] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:12,643] {logging_mixin.py:103} INFO - [2021-02-10 04:56:12,642] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:12,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:12,685] {logging_mixin.py:103} INFO - [2021-02-10 04:56:12,685] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:12,749] {logging_mixin.py:103} INFO - [2021-02-10 04:56:12,749] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:12,789] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.158 seconds
+[2021-02-10 04:56:16,328] {scheduler_job.py:181} INFO - Started process (PID=2158) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:16,332] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:16,334] {logging_mixin.py:103} INFO - [2021-02-10 04:56:16,334] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:16,352] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:16,355] {logging_mixin.py:103} INFO - [2021-02-10 04:56:16,355] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:16,432] {logging_mixin.py:103} INFO - [2021-02-10 04:56:16,432] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:16,472] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.151 seconds
+[2021-02-10 04:56:18,961] {scheduler_job.py:181} INFO - Started process (PID=2183) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:18,965] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:18,968] {logging_mixin.py:103} INFO - [2021-02-10 04:56:18,968] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:18,990] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:18,994] {logging_mixin.py:103} INFO - [2021-02-10 04:56:18,994] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:19,054] {logging_mixin.py:103} INFO - [2021-02-10 04:56:19,054] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:19,092] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.138 seconds
+[2021-02-10 04:56:21,931] {scheduler_job.py:181} INFO - Started process (PID=2208) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:21,934] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:21,937] {logging_mixin.py:103} INFO - [2021-02-10 04:56:21,937] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:21,960] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:21,963] {logging_mixin.py:103} INFO - [2021-02-10 04:56:21,963] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:22,027] {logging_mixin.py:103} INFO - [2021-02-10 04:56:22,027] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:22,057] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.135 seconds
+[2021-02-10 04:56:24,518] {scheduler_job.py:181} INFO - Started process (PID=2234) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:24,522] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:24,525] {logging_mixin.py:103} INFO - [2021-02-10 04:56:24,524] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:24,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:24,551] {logging_mixin.py:103} INFO - [2021-02-10 04:56:24,551] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:24,621] {logging_mixin.py:103} INFO - [2021-02-10 04:56:24,621] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:24,656] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.146 seconds
+[2021-02-10 04:56:27,007] {scheduler_job.py:181} INFO - Started process (PID=2259) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:27,011] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:27,013] {logging_mixin.py:103} INFO - [2021-02-10 04:56:27,013] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:27,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:27,037] {logging_mixin.py:103} INFO - [2021-02-10 04:56:27,036] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:27,094] {logging_mixin.py:103} INFO - [2021-02-10 04:56:27,094] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:27,137] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.137 seconds
+[2021-02-10 04:56:29,373] {scheduler_job.py:181} INFO - Started process (PID=2284) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:29,376] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:29,379] {logging_mixin.py:103} INFO - [2021-02-10 04:56:29,379] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:29,398] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:29,402] {logging_mixin.py:103} INFO - [2021-02-10 04:56:29,401] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:29,454] {logging_mixin.py:103} INFO - [2021-02-10 04:56:29,454] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:29,488] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.122 seconds
+[2021-02-10 04:56:32,051] {scheduler_job.py:181} INFO - Started process (PID=2309) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:32,054] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:32,056] {logging_mixin.py:103} INFO - [2021-02-10 04:56:32,055] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:32,092] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:32,094] {logging_mixin.py:103} INFO - [2021-02-10 04:56:32,094] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:32,141] {logging_mixin.py:103} INFO - [2021-02-10 04:56:32,140] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:32,170] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.126 seconds
+[2021-02-10 04:56:34,425] {scheduler_job.py:181} INFO - Started process (PID=2334) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:34,429] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:34,433] {logging_mixin.py:103} INFO - [2021-02-10 04:56:34,432] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:34,454] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:34,461] {logging_mixin.py:103} INFO - [2021-02-10 04:56:34,461] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:34,525] {logging_mixin.py:103} INFO - [2021-02-10 04:56:34,525] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:34,553] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.135 seconds
+[2021-02-10 04:56:38,079] {scheduler_job.py:181} INFO - Started process (PID=2360) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:38,086] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:38,095] {logging_mixin.py:103} INFO - [2021-02-10 04:56:38,091] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:38,123] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:38,128] {logging_mixin.py:103} INFO - [2021-02-10 04:56:38,128] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:38,193] {logging_mixin.py:103} INFO - [2021-02-10 04:56:38,193] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:38,233] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.168 seconds
+[2021-02-10 04:56:40,663] {scheduler_job.py:181} INFO - Started process (PID=2385) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:40,666] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:40,671] {logging_mixin.py:103} INFO - [2021-02-10 04:56:40,671] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:40,693] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:40,696] {logging_mixin.py:103} INFO - [2021-02-10 04:56:40,696] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:40,754] {logging_mixin.py:103} INFO - [2021-02-10 04:56:40,753] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:40,790] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.135 seconds
+[2021-02-10 04:56:43,376] {scheduler_job.py:181} INFO - Started process (PID=2411) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:43,380] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:43,383] {logging_mixin.py:103} INFO - [2021-02-10 04:56:43,382] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:43,407] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:43,411] {logging_mixin.py:103} INFO - [2021-02-10 04:56:43,411] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:43,472] {logging_mixin.py:103} INFO - [2021-02-10 04:56:43,472] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:43,507] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.142 seconds
+[2021-02-10 04:56:46,877] {scheduler_job.py:181} INFO - Started process (PID=2437) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:46,880] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:46,883] {logging_mixin.py:103} INFO - [2021-02-10 04:56:46,883] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:46,906] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:46,910] {logging_mixin.py:103} INFO - [2021-02-10 04:56:46,909] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:46,973] {logging_mixin.py:103} INFO - [2021-02-10 04:56:46,973] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:47,011] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.145 seconds
+[2021-02-10 04:56:50,553] {scheduler_job.py:181} INFO - Started process (PID=2462) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:50,557] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:50,560] {logging_mixin.py:103} INFO - [2021-02-10 04:56:50,560] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:50,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:50,593] {logging_mixin.py:103} INFO - [2021-02-10 04:56:50,592] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:50,671] {logging_mixin.py:103} INFO - [2021-02-10 04:56:50,671] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:50,711] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.166 seconds
+[2021-02-10 04:56:53,229] {scheduler_job.py:181} INFO - Started process (PID=2488) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:53,232] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:53,234] {logging_mixin.py:103} INFO - [2021-02-10 04:56:53,234] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:53,255] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:53,259] {logging_mixin.py:103} INFO - [2021-02-10 04:56:53,258] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:53,329] {logging_mixin.py:103} INFO - [2021-02-10 04:56:53,329] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:53,370] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.148 seconds
+[2021-02-10 04:56:55,907] {scheduler_job.py:181} INFO - Started process (PID=2513) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:55,915] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:55,918] {logging_mixin.py:103} INFO - [2021-02-10 04:56:55,918] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:55,939] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:55,943] {logging_mixin.py:103} INFO - [2021-02-10 04:56:55,943] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:56,013] {logging_mixin.py:103} INFO - [2021-02-10 04:56:56,013] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:56,057] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.158 seconds
+[2021-02-10 04:56:59,095] {scheduler_job.py:181} INFO - Started process (PID=2538) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:59,099] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:56:59,102] {logging_mixin.py:103} INFO - [2021-02-10 04:56:59,102] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:59,123] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:56:59,127] {logging_mixin.py:103} INFO - [2021-02-10 04:56:59,127] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:56:59,173] {logging_mixin.py:103} INFO - [2021-02-10 04:56:59,173] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:56:59,239] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.151 seconds
+[2021-02-10 04:57:01,968] {scheduler_job.py:181} INFO - Started process (PID=2563) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:01,978] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:01,989] {logging_mixin.py:103} INFO - [2021-02-10 04:57:01,988] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:02,142] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:02,156] {logging_mixin.py:103} INFO - [2021-02-10 04:57:02,154] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:02,382] {logging_mixin.py:103} INFO - [2021-02-10 04:57:02,379] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:02,480] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.541 seconds
+[2021-02-10 04:57:05,236] {scheduler_job.py:181} INFO - Started process (PID=2589) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:05,238] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:05,241] {logging_mixin.py:103} INFO - [2021-02-10 04:57:05,240] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:05,258] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:05,261] {logging_mixin.py:103} INFO - [2021-02-10 04:57:05,260] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:05,319] {logging_mixin.py:103} INFO - [2021-02-10 04:57:05,319] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:05,352] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.122 seconds
+[2021-02-10 04:57:07,553] {scheduler_job.py:181} INFO - Started process (PID=2614) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:07,556] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:07,559] {logging_mixin.py:103} INFO - [2021-02-10 04:57:07,559] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:07,580] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:07,584] {logging_mixin.py:103} INFO - [2021-02-10 04:57:07,583] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:07,681] {logging_mixin.py:103} INFO - [2021-02-10 04:57:07,680] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:07,723] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.175 seconds
+[2021-02-10 04:57:10,160] {scheduler_job.py:181} INFO - Started process (PID=2639) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:10,163] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:10,166] {logging_mixin.py:103} INFO - [2021-02-10 04:57:10,166] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:10,186] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:10,189] {logging_mixin.py:103} INFO - [2021-02-10 04:57:10,189] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:10,252] {logging_mixin.py:103} INFO - [2021-02-10 04:57:10,251] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:10,397] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.247 seconds
+[2021-02-10 04:57:13,430] {scheduler_job.py:181} INFO - Started process (PID=2665) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:13,433] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:13,435] {logging_mixin.py:103} INFO - [2021-02-10 04:57:13,435] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:13,451] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:13,454] {logging_mixin.py:103} INFO - [2021-02-10 04:57:13,454] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:13,502] {logging_mixin.py:103} INFO - [2021-02-10 04:57:13,502] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:13,535] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.110 seconds
+[2021-02-10 04:57:16,064] {scheduler_job.py:181} INFO - Started process (PID=2690) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:16,072] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:16,076] {logging_mixin.py:103} INFO - [2021-02-10 04:57:16,076] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:16,106] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:16,109] {logging_mixin.py:103} INFO - [2021-02-10 04:57:16,109] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:16,170] {logging_mixin.py:103} INFO - [2021-02-10 04:57:16,170] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:16,207] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.158 seconds
+[2021-02-10 04:57:19,079] {scheduler_job.py:181} INFO - Started process (PID=2715) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:19,085] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:19,090] {logging_mixin.py:103} INFO - [2021-02-10 04:57:19,089] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:19,169] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:19,184] {logging_mixin.py:103} INFO - [2021-02-10 04:57:19,183] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:19,304] {logging_mixin.py:103} INFO - [2021-02-10 04:57:19,303] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:19,348] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.282 seconds
+[2021-02-10 04:57:23,013] {scheduler_job.py:181} INFO - Started process (PID=2740) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:23,016] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:23,018] {logging_mixin.py:103} INFO - [2021-02-10 04:57:23,018] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:23,044] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:23,049] {logging_mixin.py:103} INFO - [2021-02-10 04:57:23,048] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:23,110] {logging_mixin.py:103} INFO - [2021-02-10 04:57:23,110] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:23,147] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.138 seconds
+[2021-02-10 04:57:27,703] {scheduler_job.py:181} INFO - Started process (PID=2766) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:27,709] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:27,713] {logging_mixin.py:103} INFO - [2021-02-10 04:57:27,712] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:27,764] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:27,770] {logging_mixin.py:103} INFO - [2021-02-10 04:57:27,770] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:27,857] {logging_mixin.py:103} INFO - [2021-02-10 04:57:27,857] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:27,899] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.213 seconds
+[2021-02-10 04:57:30,576] {scheduler_job.py:181} INFO - Started process (PID=2791) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:30,582] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:30,584] {logging_mixin.py:103} INFO - [2021-02-10 04:57:30,584] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:30,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:30,611] {logging_mixin.py:103} INFO - [2021-02-10 04:57:30,611] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:30,677] {logging_mixin.py:103} INFO - [2021-02-10 04:57:30,677] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:30,713] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.146 seconds
+[2021-02-10 04:57:33,611] {scheduler_job.py:181} INFO - Started process (PID=2816) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:33,615] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:33,617] {logging_mixin.py:103} INFO - [2021-02-10 04:57:33,617] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:33,643] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:33,648] {logging_mixin.py:103} INFO - [2021-02-10 04:57:33,647] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:33,713] {logging_mixin.py:103} INFO - [2021-02-10 04:57:33,713] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:33,755] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.152 seconds
+[2021-02-10 04:57:36,790] {scheduler_job.py:181} INFO - Started process (PID=2841) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:36,793] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:36,796] {logging_mixin.py:103} INFO - [2021-02-10 04:57:36,796] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:36,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:36,826] {logging_mixin.py:103} INFO - [2021-02-10 04:57:36,826] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:36,910] {logging_mixin.py:103} INFO - [2021-02-10 04:57:36,910] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:36,946] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.167 seconds
+[2021-02-10 04:57:39,839] {scheduler_job.py:181} INFO - Started process (PID=2867) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:39,842] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:39,845] {logging_mixin.py:103} INFO - [2021-02-10 04:57:39,845] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:39,870] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:39,873] {logging_mixin.py:103} INFO - [2021-02-10 04:57:39,873] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:39,939] {logging_mixin.py:103} INFO - [2021-02-10 04:57:39,939] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:39,973] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.141 seconds
+[2021-02-10 04:57:42,290] {scheduler_job.py:181} INFO - Started process (PID=2893) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:42,295] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:42,297] {logging_mixin.py:103} INFO - [2021-02-10 04:57:42,297] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:42,313] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:42,316] {logging_mixin.py:103} INFO - [2021-02-10 04:57:42,316] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:42,356] {logging_mixin.py:103} INFO - [2021-02-10 04:57:42,356] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:42,382] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.098 seconds
+[2021-02-10 04:57:46,322] {scheduler_job.py:181} INFO - Started process (PID=2918) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:46,328] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:46,330] {logging_mixin.py:103} INFO - [2021-02-10 04:57:46,329] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:46,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:46,353] {logging_mixin.py:103} INFO - [2021-02-10 04:57:46,353] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:46,443] {logging_mixin.py:103} INFO - [2021-02-10 04:57:46,443] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:46,486] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.174 seconds
+[2021-02-10 04:57:49,022] {scheduler_job.py:181} INFO - Started process (PID=2943) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:49,031] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:49,035] {logging_mixin.py:103} INFO - [2021-02-10 04:57:49,034] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:49,055] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:49,060] {logging_mixin.py:103} INFO - [2021-02-10 04:57:49,060] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:49,109] {logging_mixin.py:103} INFO - [2021-02-10 04:57:49,108] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:49,137] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.132 seconds
+[2021-02-10 04:57:52,827] {scheduler_job.py:181} INFO - Started process (PID=2968) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:52,833] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:52,836] {logging_mixin.py:103} INFO - [2021-02-10 04:57:52,835] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:52,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:52,917] {logging_mixin.py:103} INFO - [2021-02-10 04:57:52,916] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:53,114] {logging_mixin.py:103} INFO - [2021-02-10 04:57:53,114] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:53,174] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.361 seconds
+[2021-02-10 04:57:55,768] {scheduler_job.py:181} INFO - Started process (PID=2994) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:55,771] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:55,775] {logging_mixin.py:103} INFO - [2021-02-10 04:57:55,774] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:55,798] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:55,802] {logging_mixin.py:103} INFO - [2021-02-10 04:57:55,801] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:55,893] {logging_mixin.py:103} INFO - [2021-02-10 04:57:55,892] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:55,986] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.225 seconds
+[2021-02-10 04:57:59,050] {scheduler_job.py:181} INFO - Started process (PID=3019) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:59,054] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:57:59,059] {logging_mixin.py:103} INFO - [2021-02-10 04:57:59,058] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:59,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:57:59,086] {logging_mixin.py:103} INFO - [2021-02-10 04:57:59,085] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:57:59,141] {logging_mixin.py:103} INFO - [2021-02-10 04:57:59,141] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:57:59,180] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.138 seconds
+[2021-02-10 04:58:01,906] {scheduler_job.py:181} INFO - Started process (PID=3044) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:01,909] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:01,915] {logging_mixin.py:103} INFO - [2021-02-10 04:58:01,915] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:01,941] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:01,945] {logging_mixin.py:103} INFO - [2021-02-10 04:58:01,945] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:02,015] {logging_mixin.py:103} INFO - [2021-02-10 04:58:02,015] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:02,062] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.174 seconds
+[2021-02-10 04:58:05,058] {scheduler_job.py:181} INFO - Started process (PID=3069) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:05,061] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:05,064] {logging_mixin.py:103} INFO - [2021-02-10 04:58:05,064] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:05,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:05,091] {logging_mixin.py:103} INFO - [2021-02-10 04:58:05,091] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:05,153] {logging_mixin.py:103} INFO - [2021-02-10 04:58:05,152] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:05,194] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.141 seconds
+[2021-02-10 04:58:08,471] {scheduler_job.py:181} INFO - Started process (PID=3095) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:08,475] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:08,477] {logging_mixin.py:103} INFO - [2021-02-10 04:58:08,477] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:08,495] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:08,497] {logging_mixin.py:103} INFO - [2021-02-10 04:58:08,497] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:08,553] {logging_mixin.py:103} INFO - [2021-02-10 04:58:08,553] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:08,586] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.124 seconds
+[2021-02-10 04:58:11,872] {scheduler_job.py:181} INFO - Started process (PID=3121) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:11,875] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:11,877] {logging_mixin.py:103} INFO - [2021-02-10 04:58:11,877] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:11,893] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:11,895] {logging_mixin.py:103} INFO - [2021-02-10 04:58:11,895] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:11,945] {logging_mixin.py:103} INFO - [2021-02-10 04:58:11,945] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:12,040] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.174 seconds
+[2021-02-10 04:58:15,963] {scheduler_job.py:181} INFO - Started process (PID=3146) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:15,969] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:15,982] {logging_mixin.py:103} INFO - [2021-02-10 04:58:15,980] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:16,028] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:16,032] {logging_mixin.py:103} INFO - [2021-02-10 04:58:16,032] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:16,089] {logging_mixin.py:103} INFO - [2021-02-10 04:58:16,088] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:16,131] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.186 seconds
+[2021-02-10 04:58:18,792] {scheduler_job.py:181} INFO - Started process (PID=3171) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:18,798] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:18,800] {logging_mixin.py:103} INFO - [2021-02-10 04:58:18,800] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:18,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:18,829] {logging_mixin.py:103} INFO - [2021-02-10 04:58:18,828] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:18,958] {logging_mixin.py:103} INFO - [2021-02-10 04:58:18,958] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:18,999] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.215 seconds
+[2021-02-10 04:58:24,478] {scheduler_job.py:181} INFO - Started process (PID=3196) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:24,484] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2021-02-10 04:58:24,487] {logging_mixin.py:103} INFO - [2021-02-10 04:58:24,486] {dagbag.py:440} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:24,508] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2021-02-10 04:58:24,512] {logging_mixin.py:103} INFO - [2021-02-10 04:58:24,512] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-02-10 04:58:24,588] {logging_mixin.py:103} INFO - [2021-02-10 04:58:24,588] {dag.py:2266} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-02-08 00:00:00+00:00
+[2021-02-10 04:58:24,628] {scheduler_job.py:189} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.160 seconds

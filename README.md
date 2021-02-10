@@ -1,12 +1,38 @@
 
+## Required Directory Structure
+```
+.
+├── .Renviron
+├── .env
+├── .gitignore
+├── Dockerfile
+├── Makefile
+├── README.md
+├── dags
+├── docker-compose.yaml
+├── logs
+├── main.R
+├── plugins
+├── pre-install.sh
+├── redditstack.Rproj
+└── sql
+    ├── authors.sql
+    ├── submission_insertion_times.sql
+    ├── submission_meta.sql
+    └── submissions.sql
+
+4 directories, 15 files
+```
+
 ## Setup
 
 ```
 curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh
 ```
 
+Run this in `./redditstack/` 
 ```
-me
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> .env
 ```
 
 .Renviron

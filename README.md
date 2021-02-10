@@ -1,8 +1,12 @@
+## This stack depends on this R package
+
+### [redditsuite](https://github.com/fdrennan/redditsuite)
+
 ## Required Directory Structure
 
     .
-    ├── .Renviron
-    ├── .env
+    ├── .Renviron (Must generate)
+    ├── .env (Must generate)
     ├── .gitignore
     ├── Dockerfile
     ├── Makefile
@@ -24,11 +28,11 @@
 
 ## Setup
 
-1.   `curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh`
+1.  Install required binaries and get the code`url https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh`
 
-2.   `cd redditstack && echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> .env`
+2.  Exit shell and restart server to finish docker permissions update.
 
-3.  Exit shell and restart server to finish docker permissions update.
+3.  Create the `.env` file in the directory `./redditstack`.`echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> .env`
 
 4.  Update `.Renviron` below and put in `./redditsuite/.Renviron`
 

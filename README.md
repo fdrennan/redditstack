@@ -28,7 +28,8 @@
 
 ## Setup
 
-1.  Install required binaries and get the code`curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh`
+1.  Install required binaries and get the code  
+    `curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh`
 
 2.  Exit shell and restart server to finish docker permissions update.
 

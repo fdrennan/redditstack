@@ -24,4 +24,5 @@ clear:
 update:
 	git add --all
 	git commit -m 'update'
-	git push origin $(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+	branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+	git push origin $(branch)

@@ -1,3 +1,9 @@
+run:
+	docker-compose down
+	docker-compose pull
+	docker-compose build
+	docker-compose up -d
+
 init:
 	echo Building required file structure
 	rm -rf logs dags plugins
@@ -5,5 +11,9 @@ init:
 	docker-compose down
 	docker-compose pull
 	docker-compose up -d
-	docker-compose logs -f
 
+stop:
+	docker-compose down
+
+log:
+	docker-compose logs -f

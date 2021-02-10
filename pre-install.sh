@@ -38,3 +38,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo groupadd docker | echo already in group
 sudo usermod -aG docker $USER
 
+git clone https://github.com/fdrennan/redditstack.git
+rm -rf redditstack/.git
+cd redditstack && make clean
+
+curl https://raw.githubusercontent.com/fdrennan/redditstack/main/post-install.sh >> post-install.sh

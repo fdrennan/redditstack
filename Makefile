@@ -21,6 +21,10 @@ clear:
 	mkdir -m 777 logs dags plugins
 
 update: clear
-	rm -rf logs/*
 	git add --all
 	git commit -m 'update'
+	git push origin main
+
+mainpull:
+	git reset --hard
+	git pull origin main

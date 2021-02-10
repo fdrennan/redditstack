@@ -2,3 +2,6 @@
 .env
 .Renviron
 .Rhistory
+dags
+logs
+plugins

@@ -10,6 +10,12 @@ stop:
 log:
 	docker-compose logs -f
 
+init: clear
+	docker-compose down
+	docker-compose pull
+	docker-compose build
+	docker-compose up -d
+
 clear:
 	rm -rf logs dags plugins
 	mkdir -m 777 logs dags plugins

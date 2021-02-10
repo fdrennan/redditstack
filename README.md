@@ -62,17 +62,8 @@ sudo apt-get install -y \
 sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-# sudo groupadd docker
+sudo groupadd docker | echo already added
 sudo usermod -aG docker $USER
 
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo echo "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/" >> /etc/apt/sources.list
-
-sudo apt-get update -y \
-    r-base \
-    r-base-dev
-```
-
-
 git clone https://github.com/fdrennan/redditstack.git
-git clone git@github.com:fdrennan/redditstack.git
+rm -rf redditstack/.git

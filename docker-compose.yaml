@@ -118,7 +118,8 @@ services:
       - postgres-data:/var/lib/postgresql/data/
 
   rbase:
-    image: fdrennan/redditsuite:latest
+    # image: fdrennan/redditsuite:latest
+    build: .
     restart: "always"
     user: 'root'
     volumes:
@@ -126,9 +127,17 @@ services:
       - ./.Renviron:/home/.Renviron:ro
       - ./sql:/home/sql
     command: "/usr/bin/Rscript /home/main.R"
+  app:
+    # image: fdrennan/redditsuite:latest
+    build: .
+    restart: "always"
+    user: 'root'
+    volumes:
+      - ./app.R:/home/app/app.R
+      - ./run.R:/home/run.R
+    command: "/usr/bin/Rscript run.R"
     ports:
-      - "8787:8787"
-
+      - "3838:3838"
 volumes:
   postgres-data:
   postgres-db-volume:

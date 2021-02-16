@@ -46,4 +46,3 @@ rm -rf redditstack/.git
 
 cd redditstack && make clear
 
-curl https://raw.githubusercontent.com/fdrennan/redditstack/main/post-install.sh >> post-install.sh

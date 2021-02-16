@@ -28,19 +28,17 @@
 
 ## Setup
 
-1.  Install required binaries and get the code  
+1.  Install required binaries and get the code\
     `curl https://raw.githubusercontent.com/fdrennan/redditstack/main/pre-install.sh | sh`
 
 2.  Exit shell and restart server to finish docker permissions update.
 
-3.  Create the `.env` file in the new directory.  
+3.  Create the `.env` file in the new directory.\
     `echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> ./.env`
 
 4.  Update `.Renviron` below and put in `./redditstack/.Renviron`
 
-    If you are copying your `.Renviron` file from one computer to the other,
-    the only required field to change will be the ip address. This can be found
-    using `ifconfig` which is installed with `sudo apt install net-tools`.
+    If you are copying your `.Renviron` file from one computer to the other, the only required field to change will be the ip address. This can be found using `ifconfig` which is installed with `sudo apt install net-tools`.
 
     ```{bash}
     email=

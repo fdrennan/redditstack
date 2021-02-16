@@ -127,6 +127,7 @@ services:
       - ./.Renviron:/home/.Renviron:ro
       - ./sql:/home/sql
     command: "/usr/bin/Rscript /home/main.R"
+
   app:
     # image: fdrennan/redditsuite:latest
     build: .
@@ -135,6 +136,7 @@ services:
     volumes:
       - ./app.R:/home/app/app.R
       - ./run.R:/home/run.R
+      - ./.Renviron:/home/.Renviron
     command: "/usr/bin/Rscript run.R"
     ports:
       - "3838:3838"

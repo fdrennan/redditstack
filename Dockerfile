@@ -39,4 +39,5 @@ RUN R -e "install.packages('devtools')"
 RUN R -e "devtools::install_github('fdrennan/redditsuite', ref='dev-2')"
 
 RUN R -e "install.packages(c('shiny', 'rmarkdown', 'plumber'))"
-
+RUN echo hi
+RUN R -e "devtools::install_github('fdrennan/redditsuite', ref='dev-2', force=T)"

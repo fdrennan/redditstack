@@ -34,7 +34,7 @@
 2.  Exit shell and restart server to finish docker permissions update.
 
 3.  Create the `.env` file in the new directory.  
-    `echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> ./redditstack/.env`
+    `echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> ./.env`
 
 4.  Update `.Renviron` below and put in `./redditstack/.Renviron`
 

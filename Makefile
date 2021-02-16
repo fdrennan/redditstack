@@ -30,3 +30,10 @@ mainpush: clear
 mainpull:
 	git reset --hard
 	git pull origin main
+
+stopall:
+	docker stop $(docker ps -aq)
+
+removeall:
+	docker rm $(docker ps -aq)
+

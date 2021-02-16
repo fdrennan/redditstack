@@ -38,10 +38,6 @@
 
 4.  Update `.Renviron` below and put in `./redditsuite/.Renviron`
 
-    If you are copying your `.Renviron` file from one computer to the other,
-    the only required field to change will be the ip address. This can be found
-    using `ifconfig` which is installed with `sudo apt install net-tools`.
-
     ```{bash}
     email=
     USERNAME=

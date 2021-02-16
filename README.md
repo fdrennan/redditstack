@@ -36,7 +36,7 @@
 3.  Create the `.env` file in the new directory.  
     `echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" >> ./redditstack/.env`
 
-4.  Update `.Renviron` below and put in `./redditsuite/.Renviron`
+4.  Update `.Renviron` below and put in `./redditstack/.Renviron`
 
     If you are copying your `.Renviron` file from one computer to the other,
     the only required field to change will be the ip address. This can be found

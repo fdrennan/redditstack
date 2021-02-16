@@ -1,10 +1,10 @@
 library(shiny)
-
+library(redditsuite)
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
 
   # App title ----
-  titlePanel("Hello Shiny!"),
+  titlePanel("Hello you!"),
 
   # Sidebar layout with input and output definitions ----
   sidebarLayout(

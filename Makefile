@@ -1,17 +1,19 @@
-up:
-	docker-compose down
-	docker-compose pull
-	docker-compose build
+up: down pull build
 	docker-compose up -d
 
 down:
 	docker-compose down
 
+pull:
+	docker-compose pull
+
+build:
+	docker-compose build
+
 log:
 	docker-compose logs -f
 
-init: clear
-	docker-compose down
+init: down clear
 	docker-compose pull
 	docker-compose build
 	docker-compose up -d

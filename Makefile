@@ -37,3 +37,5 @@ stopall:
 removeall:
 	docker rm $(docker ps -aq)
 
+removeimages:
+	docker rmi $(docker images -q)

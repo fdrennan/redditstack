@@ -13,16 +13,19 @@ build:
 log:
 	docker-compose logs -f
 
-init: down clear
+init: down airflowdir
 	docker-compose pull
 	docker-compose build
 	docker-compose up -d
 
-clear:
-	rm -rf logs dags plugins
-	mkdir -m 777 logs dags plugins
+airflowdir:
+	mkdir -p -m 777 airflow/logs
+	mkdir -p -m 777 airflow/dags
+	mkdir -p -m 777 airflow/plugins
+	mkdir -p -m 777 airflow/scripts
+	mkdir -p -m 777 airflow/sql
 
-mainpush: clear
+mainpush:
 	git add --all
 	git commit -m 'update'
 	git push origin main

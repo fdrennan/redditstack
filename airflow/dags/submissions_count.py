@@ -1,5 +1,5 @@
 import airflow
-from airflow.operators.bash_operator import BashOperator
+from airflow.operators.bash import BashOperator
 from airflow.models import DAG
 
 args = {

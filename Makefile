@@ -10,7 +10,7 @@ pull:
 build:
 	docker-compose build
 
-log:
+logs:
 	docker-compose logs -f
 
 init: down airflowdir
@@ -25,12 +25,12 @@ airflowdir:
 	mkdir -p -m 777 airflow/scripts
 	mkdir -p -m 777 airflow/sql
 
-mainpush:
+push:
 	git add --all
 	git commit -m 'update'
 	git push origin main
 
-mainpull:
+pull:
 	git reset --hard
 	git pull origin main
 

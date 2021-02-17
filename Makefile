@@ -25,12 +25,12 @@ airflowdir:
 	mkdir -p -m 777 airflow/scripts
 	mkdir -p -m 777 airflow/sql
 
-push:
+mpush:
 	git add --all
 	git commit -m 'update'
 	git push origin main
 
-pull:
+mpull:
 	git reset --hard
 	git pull origin main
 

@@ -21,7 +21,7 @@ dag = DAG(dag_id='refresh_materialized_views',
 
 task_1 = BashOperator(
     task_id='submissions_count',
-    bash_command='python3 ../scripts/submissions_count.py',
+    bash_command='/usr/local/bin/python3 ../scripts/submissions_count.py',
     dag=dag
 )
 

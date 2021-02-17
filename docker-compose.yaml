@@ -69,6 +69,8 @@ services:
     <<: *airflow-common
     command: scheduler
     restart: always
+    env_file:
+      - .Renviron
 
   airflow-worker:
     <<: *airflow-common

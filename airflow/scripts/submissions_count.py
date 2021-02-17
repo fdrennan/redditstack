@@ -12,3 +12,4 @@ def update_mv():
     cur.execute("refresh materialized view submissions_count ")
     conn.commit()
     cur.close()
+

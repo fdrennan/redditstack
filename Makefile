@@ -39,3 +39,6 @@ removeall:
 
 removeimages:
 	docker rmi $(docker images -q)
+
+scheduler:
+	docker exec -it redditstack_airflow-scheduler_1 bash

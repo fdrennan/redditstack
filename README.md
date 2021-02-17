@@ -75,9 +75,6 @@
     sudo usermod -aG docker $USER
 
     git clone https://github.com/fdrennan/redditstack.git
-    rm -rf redditstack/.git
-
-    cd redditstack && make clear
     ```
 
 2.  Exit shell and restart server to finish docker permissions update.

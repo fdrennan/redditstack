@@ -4,6 +4,7 @@ MAINTAINER Freddy Drennan
 ENV DEBIAN_FRONTEND=noninteractive
 
 WORKDIR /home/
+COPY renv.lock .
 
 RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y \
     gnupg \
@@ -26,8 +27,9 @@ RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y \
     r-base \
     r-base-dev
 
-RUN wget https://raw.githubusercontent.com/fdrennan/redditsuite/dev-2/renv.lock
-RUN R -e "install.packages('renv')"
+
+
+RUN R -e "install.packages(c('renv', 'devtools', 'reticulate')"
 RUN R -e "renv::consent(provided = TRUE);renv::restore()"
 RUN R -e "reticulate::install_miniconda(force=TRUE)"
 
@@ -35,7 +37,6 @@ RUN R -e "reticulate::install_miniconda(force=TRUE)"
 RUN R -e "library(reticulate);py_install(c('boto3', 'praw'))"
 
 # Install our Package
-RUN R -e "install.packages('devtools')"
 RUN R -e "devtools::install_github('fdrennan/redditsuite', ref='dev-2')"
 
 RUN R -e "install.packages(c('shiny', 'rmarkdown', 'plumber'))"

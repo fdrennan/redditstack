@@ -1,16 +1,16 @@
 #!/bin/bash
 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
-sudo add-apt-repository \
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+apt-key fingerprint 0EBFCD88
+add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
+apt-get update -y
+apt-get upgrade -y
 
-sudo apt-get install -y \
+apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -35,14 +35,13 @@ sudo apt-get install -y \
     gdebi
 
 
-sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 
-sudo groupadd docker | echo already in group
-sudo usermod -aG docker $USER
+groupadd docker | echo already in group
+usermod -aG docker $USER
 
 git clone https://github.com/fdrennan/redditstack.git
-rm -rf redditstack/.git
 
 cd redditstack && make clear
 

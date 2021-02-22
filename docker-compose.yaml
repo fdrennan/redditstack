@@ -10,13 +10,14 @@ x-airflow-common:
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: 81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
-    AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__WEBSERVER__RBAC: 'true'
     #AIRFLOW__CORE__LOGGING_LEVEL: 'Debug'
   volumes:
-    - ./dags:/opt/airflow/dags
-    - ./logs:/opt/airflow/logs
-    - ./plugins:/opt/airflow/plugins
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/scripts:/opt/airflow/scripts
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
     - ./sql:/opt/airflow/sql
   user: "${AIRFLOW_UID:-1000}:${AIRFLOW_GID:-0}"
   depends_on:
@@ -69,6 +70,8 @@ services:
     <<: *airflow-common
     command: scheduler
     restart: always
+    env_file:
+      - .Renviron
 
   airflow-worker:
     <<: *airflow-common
@@ -118,7 +121,8 @@ services:
       - postgres-data:/var/lib/postgresql/data/
 
   rbase:
-    image: fdrennan/redditsuite:latest
+    # image: fdrennan/redditsuite:latest
+    build: .
     restart: "always"
     user: 'root'
     volumes:
@@ -126,9 +130,19 @@ services:
       - ./.Renviron:/home/.Renviron:ro
       - ./sql:/home/sql
     command: "/usr/bin/Rscript /home/main.R"
-    ports:
-      - "8787:8787"
 
+  app:
+    # image: fdrennan/redditsuite:latest
+    build: .
+    restart: "always"
+    user: 'root'
+    volumes:
+      - ./app.R:/home/app/app.R
+      - ./run.R:/home/run.R
+      - ./.Renviron:/home/.Renviron
+    command: "/usr/bin/Rscript run.R"
+    ports:
+      - "3838:3838"
 volumes:
   postgres-data:
   postgres-db-volume:

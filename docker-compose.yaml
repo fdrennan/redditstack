@@ -128,7 +128,7 @@ services:
     volumes:
       - ./main.R:/home/main.R
       - ./.Renviron:/home/.Renviron:ro
-      - ./sql:/home/sql
+      - ./airflow/sql:/home/sql
     command: "/usr/bin/Rscript /home/main.R"
 
   app:

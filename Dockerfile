@@ -29,7 +29,7 @@ RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y \
 
 
 
-RUN R -e "install.packages(c('renv', 'devtools', 'reticulate')"
+RUN R -e "install.packages(c('renv', 'devtools', 'reticulate'))"
 RUN R -e "renv::consent(provided = TRUE);renv::restore()"
 RUN R -e "reticulate::install_miniconda(force=TRUE)"
 

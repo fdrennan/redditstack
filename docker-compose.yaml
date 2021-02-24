@@ -132,8 +132,8 @@ services:
     command: "/usr/bin/Rscript /home/main.R"
 
   app:
-    # image: fdrennan/redditsuite:latest
-    build: .
+    image: fdrennan/redditstack
+    # build: .
     restart: "always"
     user: 'root'
     volumes:
